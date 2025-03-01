@@ -1,1 +1,1 @@
-# data-science-wineQualityPrediction
+# Wine Quality Prediction
