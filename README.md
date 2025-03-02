@@ -40,7 +40,7 @@ Ensure you have the following installed:<br>
 ✅ Required Python libraries<br>
 
 **Quick Start**
-
+Install Python Libraries--> Download Dataset--> Run the Code: Once the dataset is downloaded and dependencies are installed, run the Python script to train the models and evaluate the results.
 
 ## **📊 Exploratory Data Analysis (EDA)**
 EDA helps uncover patterns and relationships between wine attributes.<br>
