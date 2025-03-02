@@ -65,7 +65,7 @@ Feature selection and engineering play a crucial role in model performance.
 🔹 Principal Component Analysis (PCA) reduced dimensionality from 11 to 8 features, improving model efficiency.
 
 ## **⚡ Hyperparameter Tuning**
-Using GridSearchCV, we optimized Random Forest hyperparameters:<b>
+Using GridSearchCV, we optimized Random Forest hyperparameters:
 ```
 param_grid = {
     'n_estimators': [100, 200, 300],
@@ -74,7 +74,7 @@ param_grid = {
 }
 grid_search = GridSearchCV(RandomForestClassifier(), param_grid, cv=5, scoring='accuracy')
 grid_search.fit(X_train, y_train)
-print(grid_search.best_params_)<b>
+print(grid_search.best_params_)
 ```
 ✅ Best parameters found: {'n_estimators': 200, 'max_depth': 15, 'min_samples_split': 5}
 
