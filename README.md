@@ -11,12 +11,12 @@ Key motivations:<br>
 ✅ Compare different classification models to find the best-performing one.<br>
 
 ## **🔑 Key Features & Learnings**
-* 🔹 Exploratory Data Analysis (EDA) to uncover trends in wine quality.
-* 🔹 Feature Engineering to enhance prediction accuracy.
-* 🔹 Comparison of multiple ML models (Logistic Regression, Decision Tree, Random Forest).
-* 🔹 Hyperparameter tuning to optimize model performance.
-* 🔹 Model evaluation using metrics like Accuracy, Precision, Recall, F1-Score.
-* 🔹 Data Visualization for deeper insights into chemical influences.
+🔹 Exploratory Data Analysis (EDA) to uncover trends in wine quality.<br>
+🔹 Feature Engineering to enhance prediction accuracy.<br>
+🔹 Comparison of multiple ML models (Logistic Regression, Decision Tree, Random Forest).<br>
+🔹 Hyperparameter tuning to optimize model performance.<br>
+🔹 Model evaluation using metrics like Accuracy, Precision, Recall, F1-Score.<br>
+🔹 Data Visualization for deeper insights into chemical influences.<br>
 
 ## **🛠 Technologies, Tools, and Frameworks**
 * 🔹 Programming Language:	Python 
