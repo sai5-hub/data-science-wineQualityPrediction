@@ -6,9 +6,9 @@ This project focuses on predicting wine quality based on its chemical properties
 ## **❓ Why This Project?**
 Wine quality assessment traditionally relies on expert sensory evaluation, which is time-consuming and subjective. This project aims to develop an automated and data-driven approach to predict wine quality efficiently.
 Key motivations:
-* ✅ Improve wine classification accuracy using ML models.
-* ✅ Identify the most important chemical components influencing wine quality.
-* ✅ Compare different classification models to find the best-performing one.
+< br / >✅ Improve wine classification accuracy using ML models.
+< br / >✅ Identify the most important chemical components influencing wine quality.
+< br / >✅ Compare different classification models to find the best-performing one.
 
 ## **🔑 Key Features & Learnings**
 * 🔹 Exploratory Data Analysis (EDA) to uncover trends in wine quality.
