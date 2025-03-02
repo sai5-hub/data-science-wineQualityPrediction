@@ -50,9 +50,7 @@ Key observations:<br>
 📌 Outliers in pH and sulfur dioxide levels were detected and handled.<br>
 
 ## **🔍 Key Visualizations**
-🔹 Correlation Heatmap: To identify relationships between variables.<b>
-🔹 Boxplots: To detect outliers.<b>
-🔹 Histogram Distribution: To understand feature distributions.<b>
+🔹 Correlation Heatmap: To identify relationships between variables.<b>🔹 Boxplots: To detect outliers.<b>🔹 Histogram Distribution: To understand feature distributions.<b>
 
 ## **🔬 Model Selection & Evaluation**
 
