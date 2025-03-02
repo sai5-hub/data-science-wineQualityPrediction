@@ -66,7 +66,7 @@ Feature selection and engineering play a crucial role in model performance.<b>
 
 ## **⚡ Hyperparameter Tuning**
 Using GridSearchCV, we optimized Random Forest hyperparameters:<b>
-param_grid = {
+```param_grid = {
     'n_estimators': [100, 200, 300],
     'max_depth': [10, 15, 20],
     'min_samples_split': [2, 5, 10]
@@ -74,22 +74,9 @@ param_grid = {
 grid_search = GridSearchCV(RandomForestClassifier(), param_grid, cv=5, scoring='accuracy')
 grid_search.fit(X_train, y_train)
 print(grid_search.best_params_)<b>
+```
 ✅ Best parameters found: {'n_estimators': 200, 'max_depth': 15, 'min_samples_split': 5}
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 ## **🎯 Key Insights & Conclusions**
 The analysis revealed that alcohol content is the most significant factor influencing wine quality, highlighting its strong correlation with higher ratings. Among the models tested, Random Forest demonstrated superior performance, outperforming both Logistic Regression and Decision Tree in predictive accuracy. Additionally, feature engineering efforts—such as handling missing values, balancing the dataset, and selecting the most relevant features—led to a 10% improvement in model accuracy, further enhancing its reliability. These insights provide valuable guidance for winemakers, enabling them to adjust chemical compositions strategically to optimize wine quality and maintain consistency in production.
