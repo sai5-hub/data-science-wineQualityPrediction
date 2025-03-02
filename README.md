@@ -59,10 +59,10 @@ Key observations:<br>
 📌 Random Forest performed the best, achieving 85% accuracy due to its robustness against overfitting.
 
 ## **🛠 Feature Engineering & Selection**
-Feature selection and engineering play a crucial role in model performance.<b>
-🔹 One-hot encoding applied for categorical features.<b>
-🔹 StandardScaler used for normalizing numerical features.<b>
-🔹 Principal Component Analysis (PCA) reduced dimensionality from 11 to 8 features, improving model efficiency.<b>
+Feature selection and engineering play a crucial role in model performance.
+🔹 One-hot encoding applied for categorical features.
+🔹 StandardScaler used for normalizing numerical features.
+🔹 Principal Component Analysis (PCA) reduced dimensionality from 11 to 8 features, improving model efficiency.
 
 ## **⚡ Hyperparameter Tuning**
 Using GridSearchCV, we optimized Random Forest hyperparameters:<b>
