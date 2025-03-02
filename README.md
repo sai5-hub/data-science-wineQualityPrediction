@@ -51,8 +51,8 @@ Key observations:<br>
 
 ## **🔍 Key Visualizations**
 🔹 Correlation Heatmap: To identify relationships between variables.
-🔹 Boxplots: To detect outliers.<b>
-🔹 Histogram Distribution: To understand feature distributions.<b>
+🔹 Boxplots: To detect outliers.
+🔹 Histogram Distribution: To understand feature distributions.
 
 ## **🔬 Model Selection & Evaluation**
 
