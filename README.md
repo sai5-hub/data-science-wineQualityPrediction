@@ -50,16 +50,19 @@ Key observations:<br>
 📌 Outliers in pH and sulfur dioxide levels were detected and handled.<br>
 
 ## **🔍 Key Visualizations**
-🔹 Correlation Heatmap: To identify relationships between variables.
-🔹 Boxplots: To detect outliers.
-🔹 Histogram Distribution: To understand feature distributions.
+🔹 Correlation Heatmap: To identify relationships between variables.<b>
+🔹 Boxplots: To detect outliers.<b>
+🔹 Histogram Distribution: To understand feature distributions.<b>
 
 ## **🔬 Model Selection & Evaluation**
 
 📌 Random Forest performed the best, achieving 85% accuracy due to its robustness against overfitting.
 
 ## **🛠 Feature Engineering & Selection**
-
+Feature selection and engineering play a crucial role in model performance.<b>
+🔹 One-hot encoding applied for categorical features.<b>
+🔹 StandardScaler used for normalizing numerical features.<b>
+🔹 Principal Component Analysis (PCA) reduced dimensionality from 11 to 8 features, improving model efficiency.<b>
 
 ## **⚡ Hyperparameter Tuning**
 Using GridSearchCV, we optimized Random Forest hyperparameters:<b>
@@ -73,9 +76,20 @@ grid_search.fit(X_train, y_train)
 print(grid_search.best_params_)<b>
 ✅ Best parameters found: {'n_estimators': 200, 'max_depth': 15, 'min_samples_split': 5}
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 ## **🎯 Key Insights & Conclusions**
-📌 Alcohol content is the most important feature influencing wine quality.<b>
-📌 Random Forest outperforms Logistic Regression & Decision Tree.<b>
-📌 Feature engineering improved accuracy by 10%.<b>
-📌 The model can help winemakers adjust chemical compositions for better quality.<b>
+The analysis revealed that alcohol content is the most significant factor influencing wine quality, highlighting its strong correlation with higher ratings. Among the models tested, Random Forest demonstrated superior performance, outperforming both Logistic Regression and Decision Tree in predictive accuracy. Additionally, feature engineering efforts—such as handling missing values, balancing the dataset, and selecting the most relevant features—led to a 10% improvement in model accuracy, further enhancing its reliability. These insights provide valuable guidance for winemakers, enabling them to adjust chemical compositions strategically to optimize wine quality and maintain consistency in production.
